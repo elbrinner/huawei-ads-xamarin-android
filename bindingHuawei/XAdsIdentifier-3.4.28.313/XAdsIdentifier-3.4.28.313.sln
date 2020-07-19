@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAdsIdentifier-3.4.28.313", "XAdsIdentifier-3.4.28.313\XAdsIdentifier-3.4.28.313.csproj", "{535AD82B-F2D4-4B14-840E-240543E925F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAdsInstallreferrer-3.4.28.313", "XAdsInstallreferrer-3.4.28.313\XAdsInstallreferrer-3.4.28.313.csproj", "{2EC3AE7C-BEB7-49B1-8663-89BFD092DC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535AD82B-F2D4-4B14-840E-240543E925F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535AD82B-F2D4-4B14-840E-240543E925F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535AD82B-F2D4-4B14-840E-240543E925F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535AD82B-F2D4-4B14-840E-240543E925F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC3AE7C-BEB7-49B1-8663-89BFD092DC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC3AE7C-BEB7-49B1-8663-89BFD092DC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC3AE7C-BEB7-49B1-8663-89BFD092DC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC3AE7C-BEB7-49B1-8663-89BFD092DC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE28F96F-60EB-4237-906F-898B41BDCB7D}
+	EndGlobalSection
+EndGlobal
