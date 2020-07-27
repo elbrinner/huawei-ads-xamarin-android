@@ -75,11 +75,11 @@ namespace FormsAdsHuawei.Droid.Renderers
 
             {
 
-                BannerAdSize = BannerAdSize.BannerSize46860,
+                BannerAdSize = BannerAdSize.BannerSizeSmart,
 
                 AdId = _adUnitId,
 
-                LayoutParameters = new LinearLayout.LayoutParams(LayoutParams.WrapContent, LayoutParams.WrapContent)
+                LayoutParameters = new LinearLayout.LayoutParams(LayoutParams.MatchParent, LayoutParams.WrapContent)
 
             };
 
@@ -92,12 +92,12 @@ namespace FormsAdsHuawei.Droid.Renderers
 
 
             AdParam adParam = new AdParam.Builder().Build();
-
+            _adView.SetBannerRefresh(REFRESH_TIME);
             _adView.LoadAd(adParam);
 
 
 
-            _adView.SetBannerRefresh(REFRESH_TIME);
+           
 
 
 
